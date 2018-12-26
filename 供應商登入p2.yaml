@@ -1,0 +1,21 @@
+host: https://api-204.sit.kkday.com/api
+rest_url: /supplier/login
+
+user_info:
+  email: moda.huang@kkday.com
+  password: 123456
+  deviceId: moda1234
+  #supplierUserUuid: 17c6418b-7d99-4731-8e1e-56b10c3d4eb7
+
+pattern: 
+  apiKey: kkdayapi
+  userOid: 1
+  ver: 1.0.1
+  locale: zh-tw
+  ipaddress: 127.0.0.1
+  json:     
+    ipaddress: 0.0.0.0
+  
+headers: {"Content-Type":"application/json"}
+
+method: POST
